@@ -1,7 +1,9 @@
 #!/bin/sh
-function foo {
+function someFunction {
     echo $1
-    echo "bar"
+    echo $2
+    echo $3
+
 }
 
-foo bonky
+someFunction First "Second Argument With Quotes" Third
